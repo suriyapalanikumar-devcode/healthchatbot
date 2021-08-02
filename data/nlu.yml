@@ -1,0 +1,150 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_lower_stress
+  examples: |
+    - What to do if I'm too stressed?
+    - How can I lower my stress levels?
+    - How can I relax myself to stress less?
+    - What are some good ways to lower stress?
+    - What are some good ways to relax?
+    - What are some things I can do to lower my stress?
+    - How can I have a happy mindset by stress free?
+    - How can i be stress free?
+    - how can I motivate myself daily?
+    - how to attain peace in life?
+- intent: ask_eat_healthy
+  examples: |
+    - What can I eat to be healthy?
+    - How much portion should I eat daily?
+    - What items to be included in diet to be healthy?
+    - What's considered a healthy diet?
+    - What's considered a good diet?
+    - How can I follow a healthy diet?
+    - What's an example of a healthy diet?
+    - How do I eat healthy?
+    - what should be the daily diet to be healthy?
+- intent: ask_exercise
+  examples: |
+    - What counts as exercise?
+    - How long should I exercise daily to be healthy?
+    - What's a good amount of exercise for someone to be in thirties?
+    - How much exercise should I be getting?
+    - How much exercise is recommended?
+    - Is walking once a day enough exercise?
+    - How much exercise should I do every day?
+    - How many time per week should I go to the gym?
+  
+- intent: ask_time
+  examples: |
+    - Please tell the time
+    - What is the time now?
+    - Can you please tell the time?
+    - What is the current time?
+    - Let me know the time
+
+- intent: ask_diet_url
+  examples: |
+    - Please help me with some of the eating advice websites
+    - Navigate me through some of the eating websites
+    - Send me some of the healthy eating URLs
+    - Any webpage which can help me to eat healthy?
+    - Please suggest any healthy eating website.
+
+- intent: ask_stress_url
+  examples: |
+    - Please help me with some of the stress management advice websites
+    - Navigate me through some of the stress management websites
+    - Send me some of the stress management URLs
+    - Any webpage which can help me with stress management?
+    - Please suggest any stress management website.
+
+- intent: ask_exercise_url
+  examples: |
+    - Please help me with some of the exercise advice websites
+    - Navigate me through some of the workout routine websites
+    - Send me some of the exercise management URLs
+    - Any webpage which can help me with exercise websites?
+    - Please suggest any fitness website.
